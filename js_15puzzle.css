@@ -1,0 +1,24 @@
+@CHARSET "utf-8";
+
+.puzzle {
+    background-color: #9999FF;
+}
+
+.js15_cell {
+    /*border: 1px solid #666699;*/
+    background-color: #C0C0C0;
+    position: absolute;
+    margin: 0px;
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    /* 緑色（オレンジ色）の枠線と背景を表示しない */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);     
+}
+
+
